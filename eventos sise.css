@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para el header (con logo centrado) */
+header {
+    background-color: #e02131; /* Rojo */
+    text-align: center;
+    padding: 30px 0;
+}
+
+header .logo {
+    max-width: 300px; /* Tamaño del logo */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Sección de eventos */
+#eventos {
+    text-align: center;
+    padding: 20px;
+}
+
+.eventos-info h2 {
+    font-size: 2.5rem;
+    color: #333; /* Gris oscuro */
+    margin-bottom: 10px;
+}
+
+.eventos-info p {
+    font-size: 1.2rem;
+    color: #6c6c6c; /* Grisáceo */
+    margin-top: 0;
+}
+
+/* Estilo para las casillas de eventos */
+.casillas-eventos {
+    display: flex;
+    flex-direction: column; /* Colocamos los eventos en columna */
+    align-items: center;
+    margin-top: 30px;
+}
+
+.casilla-evento {
+    width: 70%; /* Casillas más grandes */
+    background-color: #fff;
+    border: 2px solid #e02131; /* Borde rojo */
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+    min-height: 350px;
+}
+
+.casilla-evento:hover {
+    transform: translateY(-5px);
+}
+
+.casilla-evento h3 {
+    font-size: 1.8rem;
+    color: #e02131; /* Rojo */
+    margin-bottom: 15px;
+}
+
+/* Estilo de las imágenes dentro de las casillas */
+.casilla-evento .imagenes {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten si no caben en una línea */
+}
+
+.casilla-evento .imagenes img {
+    width: 100%;
+    max-width: 300px; /* Tamaño máximo de las imágenes */
+    margin: 10px 0;
+    display: block;
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombras suaves para las imágenes */
+}
+
+/* Pie de página */
+footer {
+    background-color: #e02131;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+}

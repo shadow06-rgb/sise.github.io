@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para el header (con logo centrado) */
+header {
+    background-color: #e02131; /* Rojo */
+    text-align: center;
+    padding: 30px 0; /* Aumenté el padding para más espacio */
+}
+
+header .logo {
+    max-width: 300px; /* Aumenté el tamaño del logo */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Sección de convenios */
+#convenios {
+    text-align: center;
+    padding: 20px;
+}
+
+.convenios-info h2 {
+    font-size: 2.5rem;
+    color: #333; /* Gris oscuro */
+    margin-bottom: 10px;
+}
+
+.convenios-info p {
+    font-size: 1.2rem;
+    color: #6c6c6c; /* Grisáceo */
+    margin-top: 0;
+}
+
+/* Estilo para las casillas */
+.casillas {
+    display: flex;
+    flex-direction: column; /* Cambio de fila a columna */
+    align-items: center;
+    margin-top: 30px;
+}
+
+.casilla {
+    width: 70%; /* Casillas más grandes */
+    background-color: #fff;
+    border: 2px solid #e02131; /* Borde rojo */
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 30px; /* Aumenté el margen inferior */
+    min-height: 350px; /* Aumenté la altura mínima de las casillas */
+}
+
+.casilla:hover {
+    transform: translateY(-5px);
+}
+
+.casilla h3 {
+    font-size: 1.8rem;
+    color: #e02131; /* Rojo */
+    margin-bottom: 15px;
+}
+
+/* Aumentar el tamaño de las imágenes sin afectar el diseño de las casillas */
+.casilla .imagenes img {
+    width: 100%;
+    max-width: 1000px; /* Aumenté el tamaño máximo de las imágenes */
+    margin: 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Pie de página */
+footer {
+    background-color: #e02131;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative; /* Cambié el pie a posición relativa */
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px; /* Agregué un margen para separar el footer de las casillas */
+}

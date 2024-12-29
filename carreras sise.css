@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e02131; /* Nuevo tono rojo */
+    color: white;
+    height: 110px;
+    box-sizing: border-box;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+
+header .logo img {
+    height: 110px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Main Section */
+.carreras {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.carreras h1 {
+    font-size: 2.5rem;
+    color: #e02131; /* Nuevo tono rojo para el título */
+}
+
+.carreras p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Tabla de Carreras */
+.tabla-carreras {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-carreras th, .tabla-carreras td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.tabla-carreras th {
+    background-color: #e02131; /* Nuevo tono rojo para el encabezado */
+    color: white;
+}
+
+.tabla-carreras tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Animaciones */
+.tabla-carreras tr:hover {
+    background-color: #e02131; /* Nuevo tono rojo para hover */
+    color: white;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+.tabla-carreras img {
+    max-width: 100px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.tabla-carreras img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #e02131; /* Nuevo tono rojo para el pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
